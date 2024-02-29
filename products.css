@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    height: 260vh;
+    overflow-x: hidden;
+}
+.products-page{
+    width: 100vw;
+    height: 100%;
+}
+.container{
+    width: 100vw;
+    height: 130vh;
+}
+.header{
+    width: 100%;
+    display: flex;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 100px;
+}
+.e-shop{
+    padding-left: 70px;
+    color: red;
+    width: 15%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    display:flex;
+    width: 40%;
+}
+.search-input-box{
+    width: 100%;
+    height: 6vh;  
+    margin-left: 40%;
+}
+input{
+    outline: none;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: medium;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+}
+.links{
+    width: 35%;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+    padding-top: 2%;
+}
+.links ul li a{
+    text-decoration: none;
+    padding-left: 40px;
+    color: black;
+}
+.links ul li:hover{
+    text-decoration: underline;
+    text-underline-offset: 50%;
+}
+.header-icons{
+    width: 10%;
+}
+.header-icons .icon{
+    padding-left: 10%;
+}
+.box-below-header{
+    display: flex;
+    height: 112vh;
+    width: 100vw;
+}
+.box-contain-bags{
+    width: 50%;
+    height: auto;
+}
+
+.the-big-bag{
+    margin: 15% 5% 0 33%;
+    width: 60%;
+    height: 53%;
+}
+.the-big-bag img{
+    height: 100%;
+    width: 100%;
+}
+.bag-collection-box{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 27%;
+}
+.bag-collection-box img{
+    margin-left: 3%;
+}
+.photo{
+    height: 22%;
+    width: 18vh;
+    border-radius: 30px;
+}
+.box-contain-texts{
+    width: 50%;
+    height:auto;
+}
+.box-contain-texts h4{
+    margin: 25% 0 2%;
+    opacity: 80%;
+}
+.box-contain-texts h3{
+    margin: 2% 0%;
+    opacity: 60%;
+}
+.box-contain-texts select{
+    width: 15%;
+    height: 5%;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 1% 2% 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+    text-align: center;
+    outline: none;
+}
+.div-add-to-cart{
+    width: 40%;
+    height: 5vh;
+    margin: 3% 0%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.div-add-to-cart .number-dec-inc{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    cursor: pointer;
+}
+.add-t0-cart-link {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    background-color: brown;
+    box-shadow: 3px 5px 10px brown;
+    border-radius: 30px;
+    cursor: grab;
+} 
+.add-t0-cart-link p a{
+    text-decoration: none;
+    color: white;  
+}
+.box-contain-texts h2{
+    margin-bottom: 2%;
+}
+.div-items-collection{
+    width: 100vw;
+    height: 75vh;
+}
+.div-items-collection h1{
+    margin: 0% 2% 1% 7%;
+}
+input{
+    outline: none;
+}
+.div-items-collection .line{
+    width: 6%;
+    height: 1%;
+    background-color: brown;
+    border: 1px black solid;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.items-collection{
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+.items-collection .photo{
+    width: 18%;
+    height: 45vh;
+    border-radius: 35px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+.items-collection .photo img{
+    width: 100%;
+    height: 65%;
+}
+.items-collection .photo h4{
+    padding-left: 6%;
+    padding-top: 5%;
+}
+.items-collection .photo .price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5%;
+    align-items: center;
+}
+.items-collection .photo .price .plus-sign h1{
+    margin-top: 3%;
+} 
+.items-collection .photo .price h2 span{
+    color: brown;
+    margin-right: 5%;
+}
+.items-collection .photo .price .plus-sign{
+    width: 20%;
+    height: 10%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: brown;
+}
+.footer{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    display: flex;
+}
+.footer .footer-1{
+    width: 35%;
+    height: 100%;
+}
+.footer .footer-1 h1{
+    color: rgb(172, 31, 31);
+    padding-top: 10%;
+    padding-left: 20%;
+    font-size: 40px;
+}
+.footer .footer-1 p{
+    padding-left: 20%;
+    font-size: 20px;
+}
+.footer .footer-2{
+    width: 30%;
+    height: 100%;
+}
+.footer .footer-2 h2{
+    margin: 5% 0% 2% 10%;
+}
+.footer .line-2{
+    background-color: rgb(255, 0, 0);
+    width: 20%;
+    height: 2%;
+    margin-left: 60px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.footer .footer-2 p{
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.footer .footer-2 img{
+    margin-right: 5%;
+}
+.footer .footer-3{
+    width: 15%;
+    height: 100%;
+}
+.footer .footer-3 h2{
+    margin: 10% 0% 2% 10%;
+}
+.footer .line-3{
+    background-color: rgb(255, 0, 0);
+    width: 40%;
+    height: 2%;
+    margin-left: 60px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.footer .footer-3 ul{
+    padding-left: 20%;
+}
+.footer .footer-3 ul li{
+    padding-top: 5%;
+}
+.footer .footer-3 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer .footer-4{
+    width: 20%;
+    height: 100%;
+}
+.footer .footer-4 h2{
+    margin: 6% 0% 2% 10%;
+}
+.footer .line-4{
+    background-color: rgb(255, 0, 0);
+    width: 30%;
+    height: 2%;
+    margin-left: 60px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.footer2{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+.line-5{
+    margin: 0 10%;
+    color: white;
+}
+.footer2 footer{
+    display: flex;
+    margin: 2% 30%;
+}
+.footer2 footer i{
+    color: white;
+}
+.footer2 footer .word-e-shop{
+    color: rgb(131, 8, 8);
+}

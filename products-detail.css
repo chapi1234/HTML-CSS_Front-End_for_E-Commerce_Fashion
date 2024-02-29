@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    height: 400vh;
+    overflow-x: hidden;
+}
+.products-page{
+    width: 100vw;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 100px;
+}
+.e-shop{
+    padding-left: 70px;
+    color: red;
+    width: 15%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    display:flex;
+    width: 40%;
+}
+.search-input-box{
+    width: 100%;
+    height: 6vh;  
+    margin-left: 40%;
+}
+input{
+    outline: none;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: medium;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+}
+.links{
+    width: 35%;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+    padding-top: 2%;
+}
+.links ul li a{
+    text-decoration: none;
+    padding-left: 40px;
+    color: black;
+}
+.links ul li:hover{
+    text-decoration: underline;
+    text-underline-offset: 50%;
+}
+.header-icons{
+    width: 10%;
+}
+.header-icons .icon{
+    padding-left: 10%;
+}
+.container{
+    width: 100vW;
+    height: 320vh;
+    display: flex;
+}
+.container .categories{
+    width: 17vw;
+    height: 100%;
+}
+.categories-margin{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    width: 70%;
+    height: 98vh;
+    margin-top: 53vh;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.categories-margin h2{
+    padding: 28% 0 2% 10%;
+}
+.categories-margin .line{
+    width: 30%;
+    height: 0.8%;
+    background-color: red;
+    border-color: black;
+    margin: 2% 5% 2% 30%;
+    border-radius: 50px;
+}
+.categories-margin ul li{
+    padding: 17% 0% 15% 10%;
+    margin-left: 20%;
+}
+.body-of-container{
+    width: 83vw;
+    height: 100%;
+}
+.word-all-products{
+    margin: 2% 0% 1% 0%;
+}
+.body-of-container .line{
+    width: 7%;
+    height: 0.2%;
+    background-color: red;
+    border-color: black;
+    margin: 0 0 0 4%;
+    border-radius: 100px;
+}
+.body-of-container #select{
+    float: right;
+    margin-right: 8%;
+    width: 13%;
+    height: 2%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+.items-collection{
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 8%;
+}
+.items-collection .photo{
+    width: 22%;
+    height: 50vh;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5%;
+}
+.items-collection .photo img{
+    width: 100%;
+    height: 65%;
+}
+.items-collection .photo h4{
+    padding-left: 6%;
+    padding-top: 5%;
+}
+.items-collection .photo .price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5%;
+    align-items: center;
+}
+.items-collection .photo .price .plus-sign h3{
+    margin-top: 3%;
+} 
+.items-collection .photo .price h3 span{
+    color: brown;
+    margin-right: 5%;
+}
+.items-collection .photo .price .plus-sign{
+    width: 20%;
+    height: 10%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: brown;
+}
+.scroll{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    height: 5vh;
+    margin: 0 40% 20vh 18%;
+}
+.scroll .angle-right, .scroll .angle-left{
+    border: 3px solid brown;
+    width: 13%;
+    text-align: center;
+    border-radius: 50%;
+    color: brown;
+}
+.scroll .num-1, .scroll .num-3, .scroll .num-4{
+    text-align: center;
+    width: 13%;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: rgb(65, 61, 61);
+    color: white;
+}
+.scroll .num-2{
+    text-align: center;
+    width: 13%;
+    height: 5vh;
+    background-color: brown;
+    border-radius: 50%;
+    color: white;
+}
+.footer{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    display: flex;
+}
+.footer .footer-1{
+    width: 35%;
+    height: 100%;
+}
+.footer .footer-1 h1{
+    color: rgb(172, 31, 31);
+    padding-top: 10%;
+    padding-left: 20%;
+    font-size: 40px;
+}
+.footer .footer-1 p{
+    padding-left: 20%;
+    font-size: 20px;
+}
+.footer .footer-2{
+    width: 30%;
+    height: 100%;
+}
+.footer .footer-2 h2{
+    margin: 5% 0% 2% 10%;
+}
+.footer .line-2{
+    background-color: rgb(255, 0, 0);
+    width: 20%;
+    height: 2%;
+    margin-left: 60px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.footer .footer-2 p{
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.footer .footer-2 img{
+    margin-right: 5%;
+}
+.footer .footer-3{
+    width: 15%;
+    height: 100%;
+}
+.footer .footer-3 h2{
+    margin: 10% 0% 2% 10%;
+}
+.footer .line-3{
+    background-color: rgb(255, 0, 0);
+    width: 40%;
+    height: 2%;
+    margin-left: 60px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.footer .footer-3 ul{
+    padding-left: 20%;
+}
+.footer .footer-3 ul li{
+    padding-top: 5%;
+}
+.footer .footer-3 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer .footer-4{
+    width: 20%;
+    height: 100%;
+}
+.footer .footer-4 h2{
+    margin: 6% 0% 2% 10%;
+}
+.footer .line-4{
+    background-color: rgb(255, 0, 0);
+    width: 30%;
+    height: 2%;
+    margin-left: 60px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.footer2{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+.line-5{
+    margin: 0 10%;
+    color: white;
+}
+.footer2 footer{
+    display: flex;
+    margin: 2% 30%;
+}
+.footer2 footer i{
+    color: white;
+}
+.footer2 footer .word-e-shop{
+    color: rgb(131, 8, 8);
+}
